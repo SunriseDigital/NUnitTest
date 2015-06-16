@@ -1,9 +1,5 @@
 ## Travis CI Integration
 
-language: c
+language: csharp
+solution: NUnitTest/NUnitTest.sln
 
-install:
-  - sudo apt-get install mono-devel mono-gmcs nunit-console
-script:
-  - xbuild NUnitTest/NUnitTest.sln
-  - nunit-console NUnitTest/bin/Debug/NUnitTest.dll
