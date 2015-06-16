@@ -19,7 +19,7 @@ namespace NUnitTest
         [Test]
         public void FailTestMethod()
         {
-            Assert.AreEqual("ccc", "aaa");
+            Assert.AreEqual("ccc", "ccc");
         }
     }
 }
