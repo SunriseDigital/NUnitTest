@@ -1,5 +1,5 @@
 ## Travis CI Integration
 
 language: csharp
-solution: NUnitTest/NUnitTest.sln
+solution: NUnitTest.sln
 
